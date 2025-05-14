@@ -2,8 +2,7 @@
   <div class="app-container">
     <!--<img class="logo" src="@/assets/icons/Logo_1.jpeg" alt="logo" />-->
     <div class="main-container">
-      <Background />
-      <Footer />
+
       <main class="content">
         <router-view />
       </main>
@@ -12,15 +11,11 @@
 </template>
 
 <script>
-import Footer from '@/components/Footer.vue';
-import Background from '@/components/Background.vue';
+
 
 export default {
   name: "App",
-  components: {
-    Background,
-    Footer
-  }
+
 }
 </script>
 
